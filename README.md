@@ -42,7 +42,8 @@ Users should be able to:
 ### Workflow
 
  - Setting up workflow
- - Identify elements and create html skeleton based on `./assets/design/*`
+ - Identifing elements and creating html skeleton based on `./assets/design/*`
+ - Setting up CSS preflight (Prepare reset css, Add Google fonts, Identify CSS custom properties)
 
 ### Built with
 
