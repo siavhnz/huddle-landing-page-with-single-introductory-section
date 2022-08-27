@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./assets//images/screenshot.jpg)
 
 
 ### Links
 
 - Solution: [frontendmentor.io](https://your-solution-url.com)
-- Live Site: [github.io](https://your-live-site-url.com)
+- Live Site: [github.io](https://siavhnz.github.io/frontendmentor/9.huddle-landing-page-with-single-introductory-section/index.html)
 
 ## My process
 
@@ -45,14 +45,17 @@ Users should be able to:
  - Identifing elements and creating html skeleton based on `./assets/design/*`
  - Setting up CSS preflight (Prepare reset css, Add Google fonts, Identify CSS custom properties)
  - Working on mobile design
+ - Working on Desktop design
+ - Write README.md
+ - publish on github.io | github.com | frontendmentor.io
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Mobile-first workflow
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 ### What I learned
 
@@ -62,6 +65,8 @@ I learned some tricks:
   - How to keep the footer at the bottom
 
 ### Continued development
+
+I need more practice on CSS Grid layout
 
 ### Useful resources
 
@@ -74,8 +79,11 @@ I learned some tricks:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+Frontend Mentor - [@siavhnz](https://www.frontendmentor.io/profile/siavhnz)
 
 
 ## Acknowledgments
 
+[Frontendmentor.io](https://www.frontendmentor.io/challenges) - for their Excitement challenges  
+
+[Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) - for such a great extension
