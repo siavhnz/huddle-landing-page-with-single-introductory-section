@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution: [frontendmentor.io](https://your-solution-url.com)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-uRvfyFMMj3)
 - Live Site: [github.io](https://siavhnz.github.io/frontendmentor/9.huddle-landing-page-with-single-introductory-section/index.html)
 
 ## My process
