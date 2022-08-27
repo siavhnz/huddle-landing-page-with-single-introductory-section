@@ -42,7 +42,8 @@ Users should be able to:
 ### Workflow
 
  - Setting up workflow
- 
+ - Identify elements and create html skeleton based on `./assets/design/*`
+
 ### Built with
 
 - Semantic HTML5 markup
