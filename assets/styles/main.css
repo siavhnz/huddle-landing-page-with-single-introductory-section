@@ -2,10 +2,94 @@
     /* colors */
     --color-violet: hsl(257, 40%, 49%);
     --color-Soft-magenta: hsl(300, 69%, 71%);
+    --color-light-gray: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+    --color-transparent-white: hsl(0, 0%, 95%); /* headings, button bg, icons */
 
     /* fonts */
     --font-poppins: 'Poppins', sans-serif;
     --font-open-sans: 'Open Sans', sans-serif;
     --font-regular: 400;
     --font-semibold: 600;
+
+    /* images */
+    --img-bg-body-mobile: url('../images/bg-mobile.svg');
+    --img-bg-body-desktop: url('../images/bg-desktop.svg');
 }
+
+body {
+    background-image: var(--img-bg-body-mobile);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:var(--color-violet);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 4rem;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 0 2.25rem;
+}
+header {
+    margin-top:2rem;
+}
+header img{
+    width:7.75rem
+}
+
+.introductory .info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.25rem;
+}
+
+.introductory .info-section .title{
+    font-family: var(--font-poppins);
+    font-weight: var(--font-semibold);
+    color:var(--color-transparent-white);
+    font-size:1.5rem;
+    margin-top:3.25rem;
+    text-align: center;
+}
+
+.introductory .info-section .desc{
+    font-family: var(--font-open-sans);
+    font-size: 1rem;
+    font-weight: var(--font-regular);
+    color: var(--color-light-gray);
+    text-align: center;
+}
+
+.introductory .info-section .register{
+    font-size: 1rem;
+    font-family: var(--font-poppins);
+    color:var(--color-violet);
+    background-color: var(--color-transparent-white);
+    border-radius: 30px;
+    padding:0.5rem 4.125rem;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
+
+.icon-link{
+    border:2px solid var(--color-transparent-white);
+    padding:0.5rem;
+    border-radius:100%;
+}
+
+.icon{
+    width:0.75rem;
+    height: 0.75rem;
+    color:aliceblue;
+}
+
+.no-border{
+    border:none;
+}
+

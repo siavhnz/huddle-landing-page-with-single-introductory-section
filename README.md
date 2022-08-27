@@ -44,6 +44,7 @@ Users should be able to:
  - Setting up workflow
  - Identifing elements and creating html skeleton based on `./assets/design/*`
  - Setting up CSS preflight (Prepare reset css, Add Google fonts, Identify CSS custom properties)
+ - Working on mobile design
 
 ### Built with
 
@@ -55,11 +56,20 @@ Users should be able to:
 
 ### What I learned
 
+I learned some tricks:
+  - How to accessible svg icons for screen readers
+  - How to change the color of an svg element
+  - How to keep the footer at the bottom
+
 ### Continued development
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Accessible SVG Icons - css-tricks](https://css-tricks.com/accessible-svg-icons/)
+
+- [Change the color of an svg element - stackoverflow](https://stackoverflow.com/a/65147574)
+
+- [Keep the footer at the bottom](https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/)
 
 
 ## Author
